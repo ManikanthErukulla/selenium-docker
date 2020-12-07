@@ -11,7 +11,7 @@ pipeline {
         stage('Build Image') {
             steps {
                 //sh
-                bat "docker build -t 'manikanthe/selenium-docker' ."
+                bat "docker build -t manikanthe/selenium-docker ."
             }
         }
         stage('Push Image') {
